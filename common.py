@@ -1,5 +1,3 @@
-import logging
-import os
 import ssl
 from six.moves.urllib.request import urlopen, urlretrieve
 
