@@ -6,6 +6,13 @@ import os
 from shutterstock_scraper import imagescrape
 
 if __name__ == "__main__":
+    """
+    Main function
+
+    example:
+        scraper_ng -p 5 -d dataset big yellow taxi
+
+    """
     parser = argparse.ArgumentParser(description='Shutterstock Scraper')
 
     parser.add_argument('--destination', '-d',
