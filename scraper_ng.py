@@ -4,6 +4,7 @@ import logging
 import os
 
 from shutterstock_scraper import imagescrape
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Shutterstock Scraper')
 
